@@ -18,8 +18,7 @@ def kullanici_giris():
         if keyboard.is_pressed('enter'):  # 'Enter' tuşuna basıldığını kontrol et
             stop_event.set()  # Giriş alındığında program duracak
             break
-
-# Paket yakalamayı ayrı bir thread'de başlatıyoruz
+
 def paket_yakalama_baslat():
     sniff(prn=paket_yakalama, filter="tcp or udp", stop_filter=durdurma_kontrol)
 
