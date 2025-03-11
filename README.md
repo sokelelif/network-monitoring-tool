@@ -8,9 +8,19 @@ Bu proje ile Python kullanarak temel bir ağ izleme aracı geliştirmeyi amaçla
 - Yakalanan paketlerin özet bilgilerini ekrana yazdırır.
 
 ## Kullanım
+
+Projeyi çalıştırmadan önce aşağıdaki kütüphanelerin yüklü olması gerekir:
+- scapy
+- keyboard
+  
+Kütüphaneleri yüklemek için şu komutu kullanabilirsiniz:
+
+```
+pip install scapy keyboard
+```
 Aşağıdaki komutu çalıştırarak aracı başlatabilirsiniz:
 
 ```
 python main.py
 ```
-Aracı durdurmak için CTRL + C kombinasyonunu kullanabilirsiniz.
+Programı durdurmak için, Enter tuşuna basın. Bu, paket yakalamayı durduracak ve programı sonlandıracaktır.
