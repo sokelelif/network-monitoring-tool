@@ -21,6 +21,6 @@ pip install scapy keyboard
 Aşağıdaki komutu çalıştırarak aracı başlatabilirsiniz:
 
 ```
-python main.py
+python network-monitor.py
 ```
 Programı durdurmak için, Enter tuşuna basın. Bu, paket yakalamayı durduracak ve programı sonlandıracaktır.
