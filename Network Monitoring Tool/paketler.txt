@@ -1,0 +1,10 @@
+1. Ether / IP / TCP 10.0.0.1:54321 > 93.184.216.34:80 / Raw  
+2. Ether / IPv6 / UDP 2001:db8::1:1234 > 2001:db8::2:53 / DNS Qry b'example.com.'  
+3. Ether / IP / ICMP 192.168.100.10 > 8.8.4.4 / Echo Request  
+4. Ether / IP / UDP 172.16.0.5:50000 > 203.0.113.25:443 / Encrypted Data  
+5. Ether / IP / TCP 192.168.50.20:1025 > 198.51.100.12:22 / SSH Handshake  
+6. Ether / IPv6 / UDP fe80::1:5678 > fe80::2:161 / SNMP Request  
+7. Ether / IP / TCP 10.10.1.15:8080 > 192.0.2.50:443 / TLS Handshake  
+8. Ether / IP / UDP 192.168.1.200:137 > 192.168.1.255:137 / NetBIOS Name Query  
+9. Ether / IP / TCP 172.20.10.8:3389 > 203.0.113.75:3389 / RDP Connection Attempt  
+10. Ether / IPv6 / ICMPv6 fe80::3 > fe80::4 / Neighbor Solicitation  
