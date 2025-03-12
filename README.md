@@ -23,4 +23,4 @@ Aşağıdaki komutu çalıştırarak aracı başlatabilirsiniz:
 ```
 python network-monitor.py
 ```
-Programı durdurmak için, Enter tuşuna basın. Bu, paket yakalamayı durduracak ve programı sonlandıracaktır.
+Programı durdurmak için Enter tuşuna basın. Bu paket yakalamayı durduracak ve programı sonlandıracaktır.
